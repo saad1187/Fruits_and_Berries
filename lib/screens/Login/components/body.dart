@@ -37,7 +37,7 @@ class Body extends StatelessWidget {
             SizedBox(height: size.height * 0.03),
             Image.asset(
               loadedItem.imageURL,
-              height: size.height * 0.35,
+              height: size.height * 0.30,
             ),
             TextFieldContainer(
               colour: loadedItem.colour,

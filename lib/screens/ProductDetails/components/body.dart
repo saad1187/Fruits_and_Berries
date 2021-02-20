@@ -151,11 +151,12 @@ class Body extends StatelessWidget {
                     ),
 //
                     Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
                           padding: EdgeInsets.symmetric(
-                            vertical: size.height * 0.0185,
+                            vertical: size.height * 0.0180,
                           ),
                           margin: EdgeInsets.symmetric(
                               vertical: size.height * 0.04),

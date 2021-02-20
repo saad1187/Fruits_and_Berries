@@ -40,7 +40,7 @@ class Body extends StatelessWidget {
             Image.asset(
               loadedItem.imageURL,
               height: size.height * 0.3,
-              width: size.width * 0.8,
+              width: size.width * 0.7,
             ),
             SizedBox(height: size.height * 0.02),
             TextFieldContainer(
@@ -56,6 +56,7 @@ class Body extends StatelessWidget {
               child: RoundedInputField(
                 colour: loadedItem.bgColor,
                 hintText: "Your User Name",
+                icon: Icons.supervised_user_circle,
                 onChanged: (value) {},
               ),
             ),
@@ -64,6 +65,7 @@ class Body extends StatelessWidget {
               child: RoundedInputField(
                 colour: loadedItem.bgColor,
                 hintText: "Your Email",
+                icon: Icons.email,
                 onChanged: (value) {},
               ),
             ),

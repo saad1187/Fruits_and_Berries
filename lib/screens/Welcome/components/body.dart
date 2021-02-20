@@ -1,6 +1,5 @@
 import 'package:esraa/components/background.dart';
 import 'package:esraa/components/rounded_button.dart';
-import 'package:esraa/constant.dart';
 import 'package:esraa/models/products.dart';
 import 'package:esraa/screens/Login/login_screen.dart';
 import 'package:esraa/screens/SignUp/sign_up_screen.dart';
