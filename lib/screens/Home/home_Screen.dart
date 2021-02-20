@@ -36,13 +36,14 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ],
                 ),
+                Head(),
+                SizedBox(height: size.height * 0.025),
                 Expanded(
                   child: SingleChildScrollView(
                     physics: BouncingScrollPhysics(),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Head(),
                         SizedBox(height: size.height * 0.025),
                         Body(),
                       ],
